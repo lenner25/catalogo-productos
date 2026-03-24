@@ -9,7 +9,7 @@ st.set_page_config(page_title="Catálogo JK", layout="wide")
 # =========================
 DATA_FILE = "productos.csv"
 IMG_FOLDER = "imagenes"
-WHATSAPP = "50588888888"
+WHATSAPP = "50588065551"
 
 ADMIN_USER = "admin"
 ADMIN_PASS = "1234"
@@ -141,6 +141,7 @@ for i, row in df_filtrado.iterrows():
     with col:
         st.markdown('<div class="card">', unsafe_allow_html=True)
 
+        
         st.image(row["imagen"], use_container_width=True)
         st.subheader(row["nombre"])
         st.markdown(f'<div class="precio">$ {row["precio"]}</div>', unsafe_allow_html=True)
