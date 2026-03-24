@@ -2,5 +2,5 @@ nombre,precio,estado,imagen
 Short,25,Disponible,imagenes/short.jpg
 blusa,40,Vendido,imagenes/blusa.jpg
 Pantalon Jeans,15,Disponible,imagenes/pantalon_jeans.jpg
-zapatillas,120,Disponible,imagenes\zapatillas.jpg
-camiseta,80,Disponible,imagenes\camiseta.jpg
+zapatillas,120,Disponible,imagenes/zapatillas.jpg
+camiseta,80,Disponible,imagenes/camiseta.jpg
